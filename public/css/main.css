@@ -1,0 +1,126 @@
+* {
+  /* border: 1px solid white; */
+  padding: 0px;
+  margin: 0px;
+  color: white;
+}
+
+body {
+  background-color: hsl(246, 55%, 10%);
+}
+
+div {
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.upper, .middle, .lower{
+  margin: 20px;
+}
+
+hr {
+  margin: 0px 20px;
+}
+
+.card {
+  margin: 100px auto 0px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(243, 58%, 18%);
+  margin-bottom: 200px;
+  padding: 10px 20px;
+}
+
+ul {
+  width: 100%;
+  list-style-type: none;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid black;
+  padding: 10px;
+  flex-wrap: wrap;
+  overflow-wrap: break-word;
+}
+
+.input {
+  border-color: 1px solid white;
+  margin: 0px auto;
+}
+.text-input {
+  font-size: 18.5px;
+  width: 380px;
+  color: black;
+}
+
+.add-btn {
+  padding: 4px 10px;
+  background-color: hsl(120, 100%, 40%);
+  font-weight: 800;
+  border-radius: 7px;
+  border-color: white;
+}
+
+.add-btn:hover {
+  background-color: hsl(120, 100%, 70%);
+  color: hsl(10, 10%, 100%);
+}
+
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 22px;
+}
+
+.remove-btn {
+  padding: 3px 5px;
+  background-color: hsl(0, 90%, 50%);
+  border-color: white;
+  border-radius: 4px;
+  color: white;
+}
+
+.remove-btn:hover {
+  background-color: hsl(0, 90%, 80%);
+}
+
+li:first-of-type {
+  border-top: 3px solid black;
+}
+.pending {
+  font-size: 19px;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header, .footer{
+  font-size: 25px;
+  background-color: hsl(246, 55%, 13%);
+  width: 98vw;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.content {
+  font-size: 21px;
+  overflow-wrap: break-word;
+  /* border: 1px solid white; */
+  width: 80%;
+}
